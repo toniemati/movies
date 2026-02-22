@@ -12,11 +12,6 @@ git clone https://github.com/toniemati/movies.git
 cp .env.example .env
 ```
 
-### Generate key
-```
-php artisan key:gen
-```
-
 ### Instal dependencies
 ```
 composer install
@@ -25,19 +20,14 @@ composer install
 npm install
 ```
 
+### Generate key
+```
+php artisan key:gen
+```
+
 ### Build assets
 ```
 npm run build
-```
-
-### Build assets
-```
-npm run build
-```
-
-### Run migrations
-```
-php artisan migrate:fresh
 ```
 
 ### Run migrations
