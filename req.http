@@ -1,0 +1,35 @@
+GET http://localhost:8000/api/movies
+Content-Type: application/json
+Accept-Language: pl
+
+###
+
+GET http://localhost:8000/api/movies/1
+Content-Type: application/json
+Accept-Language: pl
+
+###
+
+GET http://localhost:8000/api/genres
+Content-Type: application/json
+Accept-Language: en
+
+###
+
+GET http://localhost:8000/api/genres/1
+Content-Type: application/json
+Accept-Language: en
+
+###
+
+GET http://localhost:8000/api/series
+Content-Type: application/json
+Accept-Language: de
+
+###
+
+GET http://localhost:8000/api/series/2
+Content-Type: application/json
+Accept-Language: de
+
+###
